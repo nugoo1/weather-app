@@ -1,3 +1,6 @@
+# app-promise.js
+This is the final code and uses axios send http requests. 
+
 # Notes from the course
 
 ## appendFile now appendFileSync
