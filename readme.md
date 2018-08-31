@@ -1,5 +1,5 @@
 # app-promise.js
-This is the final code and uses axios send http requests. 
+This is the final code and uses axios to send and receive data via API. 
 
 # Notes from the course
 
