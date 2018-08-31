@@ -30,4 +30,11 @@ var command = argv._[0];
 if (response.data.stats === ‘something’) {
 throw new Error(‘Unable to fetch data from API servers’)
 }
-e.message
+The following is the basic error catch message (one catch for all promises, or individual error as above (or use both for specific errors for some, and generic errors for others.))
+.catch((e) => {
+    if (e.code === 'ENOTFOUND') {
+        console.log('Unable to connect to API servers.')
+    } else {
+        console.log(e.message);
+    }
+});
